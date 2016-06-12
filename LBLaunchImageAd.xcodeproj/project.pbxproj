@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6A18C7891D0CF29300B7F316 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A18C7881D0CF29300B7F316 /* TestViewController.m */; };
+		6A18C78D1D0D1AF700B7F316 /* LBLaunchImageAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A18C78C1D0D1AF700B7F316 /* LBLaunchImageAdView.m */; };
 		6ADA33C81D07F37200B13CDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADA33C71D07F37200B13CDF /* main.m */; };
 		6ADA33CB1D07F37200B13CDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADA33CA1D07F37200B13CDF /* AppDelegate.m */; };
 		6ADA33CE1D07F37200B13CDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADA33CD1D07F37200B13CDF /* ViewController.m */; };
@@ -15,7 +16,6 @@
 		6ADA33D31D07F37200B13CDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ADA33D21D07F37200B13CDF /* Assets.xcassets */; };
 		6ADA33E11D07F37200B13CDF /* LBLaunchImageAdTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADA33E01D07F37200B13CDF /* LBLaunchImageAdTests.m */; };
 		6ADA33EC1D07F37200B13CDF /* LBLaunchImageAdUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADA33EB1D07F37200B13CDF /* LBLaunchImageAdUITests.m */; };
-		6ADA33FB1D07F3B300B13CDF /* LBLaunchImageAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADA33FA1D07F3B300B13CDF /* LBLaunchImageAdView.m */; };
 		6ADA341A1D08198100B13CDF /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADA33FE1D08198100B13CDF /* NSData+ImageContentType.m */; };
 		6ADA341B1D08198100B13CDF /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADA34001D08198100B13CDF /* SDImageCache.m */; };
 		6ADA341C1D08198100B13CDF /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADA34021D08198100B13CDF /* SDWebImageCompat.m */; };
@@ -52,6 +52,8 @@
 /* Begin PBXFileReference section */
 		6A18C7871D0CF29300B7F316 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		6A18C7881D0CF29300B7F316 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		6A18C78B1D0D1AF700B7F316 /* LBLaunchImageAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBLaunchImageAdView.h; sourceTree = "<group>"; };
+		6A18C78C1D0D1AF700B7F316 /* LBLaunchImageAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBLaunchImageAdView.m; sourceTree = "<group>"; };
 		6ADA33C31D07F37200B13CDF /* LBLaunchImageAd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBLaunchImageAd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ADA33C71D07F37200B13CDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6ADA33C91D07F37200B13CDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,8 +69,6 @@
 		6ADA33E71D07F37200B13CDF /* LBLaunchImageAdUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBLaunchImageAdUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ADA33EB1D07F37200B13CDF /* LBLaunchImageAdUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBLaunchImageAdUITests.m; sourceTree = "<group>"; };
 		6ADA33ED1D07F37200B13CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6ADA33F91D07F3B200B13CDF /* LBLaunchImageAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LBLaunchImageAdView.h; path = LBLaunchImageAd/LBLaunchImageAdView.h; sourceTree = SOURCE_ROOT; };
-		6ADA33FA1D07F3B300B13CDF /* LBLaunchImageAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LBLaunchImageAdView.m; path = LBLaunchImageAd/LBLaunchImageAdView.m; sourceTree = SOURCE_ROOT; };
 		6ADA33FD1D08198100B13CDF /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
 		6ADA33FE1D08198100B13CDF /* NSData+ImageContentType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+ImageContentType.m"; sourceTree = "<group>"; };
 		6ADA33FF1D08198100B13CDF /* SDImageCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDImageCache.h; sourceTree = "<group>"; };
@@ -128,8 +128,8 @@
 		6A18C78A1D0CF3C600B7F316 /* LBLaunchImageAd */ = {
 			isa = PBXGroup;
 			children = (
-				6ADA33F91D07F3B200B13CDF /* LBLaunchImageAdView.h */,
-				6ADA33FA1D07F3B300B13CDF /* LBLaunchImageAdView.m */,
+				6A18C78B1D0D1AF700B7F316 /* LBLaunchImageAdView.h */,
+				6A18C78C1D0D1AF700B7F316 /* LBLaunchImageAdView.m */,
 			);
 			path = LBLaunchImageAd;
 			sourceTree = "<group>";
@@ -364,13 +364,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A18C78D1D0D1AF700B7F316 /* LBLaunchImageAdView.m in Sources */,
 				6ADA341A1D08198100B13CDF /* NSData+ImageContentType.m in Sources */,
 				6ADA34201D08198100B13CDF /* SDWebImageManager.m in Sources */,
 				6ADA34251D08198100B13CDF /* UIImageView+HighlightedWebCache.m in Sources */,
 				6ADA341E1D08198100B13CDF /* SDWebImageDownloader.m in Sources */,
 				6ADA34261D08198100B13CDF /* UIImageView+WebCache.m in Sources */,
 				6ADA341B1D08198100B13CDF /* SDImageCache.m in Sources */,
-				6ADA33FB1D07F3B300B13CDF /* LBLaunchImageAdView.m in Sources */,
 				6ADA33CE1D07F37200B13CDF /* ViewController.m in Sources */,
 				6ADA341D1D08198100B13CDF /* SDWebImageDecoder.m in Sources */,
 				6ADA34241D08198100B13CDF /* UIImage+MultiFormat.m in Sources */,
