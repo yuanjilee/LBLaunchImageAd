@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		6A18C7891D0CF29300B7F316 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A18C7881D0CF29300B7F316 /* TestViewController.m */; };
-		6A18C78D1D0D1AF700B7F316 /* LBLaunchImageAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A18C78C1D0D1AF700B7F316 /* LBLaunchImageAdView.m */; };
 		6ADA33C81D07F37200B13CDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADA33C71D07F37200B13CDF /* main.m */; };
 		6ADA33CB1D07F37200B13CDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADA33CA1D07F37200B13CDF /* AppDelegate.m */; };
 		6ADA33CE1D07F37200B13CDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADA33CD1D07F37200B13CDF /* ViewController.m */; };
@@ -30,6 +29,7 @@
 		6ADA34251D08198100B13CDF /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADA34151D08198100B13CDF /* UIImageView+HighlightedWebCache.m */; };
 		6ADA34261D08198100B13CDF /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADA34171D08198100B13CDF /* UIImageView+WebCache.m */; };
 		6ADA34271D08198100B13CDF /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ADA34191D08198100B13CDF /* UIView+WebCacheOperation.m */; };
+		6AF7D5D81D1288E10040E752 /* LBLaunchImageAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AF7D5D71D1288E10040E752 /* LBLaunchImageAdView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,6 @@
 /* Begin PBXFileReference section */
 		6A18C7871D0CF29300B7F316 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
 		6A18C7881D0CF29300B7F316 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
-		6A18C78B1D0D1AF700B7F316 /* LBLaunchImageAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBLaunchImageAdView.h; sourceTree = "<group>"; };
-		6A18C78C1D0D1AF700B7F316 /* LBLaunchImageAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBLaunchImageAdView.m; sourceTree = "<group>"; };
 		6ADA33C31D07F37200B13CDF /* LBLaunchImageAd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBLaunchImageAd.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ADA33C71D07F37200B13CDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6ADA33C91D07F37200B13CDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -98,6 +96,8 @@
 		6ADA34171D08198100B13CDF /* UIImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebCache.m"; sourceTree = "<group>"; };
 		6ADA34181D08198100B13CDF /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		6ADA34191D08198100B13CDF /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		6AF7D5D61D1288E10040E752 /* LBLaunchImageAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBLaunchImageAdView.h; sourceTree = "<group>"; };
+		6AF7D5D71D1288E10040E752 /* LBLaunchImageAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBLaunchImageAdView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,20 +125,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6A18C78A1D0CF3C600B7F316 /* LBLaunchImageAd */ = {
-			isa = PBXGroup;
-			children = (
-				6A18C78B1D0D1AF700B7F316 /* LBLaunchImageAdView.h */,
-				6A18C78C1D0D1AF700B7F316 /* LBLaunchImageAdView.m */,
-			);
-			name = LBLaunchImageAd;
-			path = ../LBLaunchImageAd;
-			sourceTree = "<group>";
-		};
 		6A18C78E1D0D3A7F00B7F316 /* Lib */ = {
 			isa = PBXGroup;
 			children = (
-				6A18C78A1D0CF3C600B7F316 /* LBLaunchImageAd */,
+				6AF7D5D51D12888B0040E752 /* LBLaunchImageAd */,
 			);
 			path = Lib;
 			sourceTree = "<group>";
@@ -243,6 +233,15 @@
 			);
 			name = SDWebImage;
 			path = ../SDWebImage;
+			sourceTree = "<group>";
+		};
+		6AF7D5D51D12888B0040E752 /* LBLaunchImageAd */ = {
+			isa = PBXGroup;
+			children = (
+				6AF7D5D61D1288E10040E752 /* LBLaunchImageAdView.h */,
+				6AF7D5D71D1288E10040E752 /* LBLaunchImageAdView.m */,
+			);
+			path = LBLaunchImageAd;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -374,7 +373,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A18C78D1D0D1AF700B7F316 /* LBLaunchImageAdView.m in Sources */,
 				6ADA341A1D08198100B13CDF /* NSData+ImageContentType.m in Sources */,
 				6ADA34201D08198100B13CDF /* SDWebImageManager.m in Sources */,
 				6ADA34251D08198100B13CDF /* UIImageView+HighlightedWebCache.m in Sources */,
@@ -389,6 +387,7 @@
 				6ADA33CB1D07F37200B13CDF /* AppDelegate.m in Sources */,
 				6ADA34221D08198100B13CDF /* UIButton+WebCache.m in Sources */,
 				6ADA34211D08198100B13CDF /* SDWebImagePrefetcher.m in Sources */,
+				6AF7D5D81D1288E10040E752 /* LBLaunchImageAdView.m in Sources */,
 				6ADA341C1D08198100B13CDF /* SDWebImageCompat.m in Sources */,
 				6ADA34231D08198100B13CDF /* UIImage+GIF.m in Sources */,
 				6ADA34271D08198100B13CDF /* UIView+WebCacheOperation.m in Sources */,

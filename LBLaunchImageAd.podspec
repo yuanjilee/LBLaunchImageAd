@@ -15,7 +15,7 @@ s.platform     = :ios
 s.platform     = :ios, "7.0"
 
 
-s.source       = { :git => "https://github.com/AllLuckly/LBLaunchImageAd.git", :tag => "0.0.1"}
+s.source       = { :git => "https://github.com/AllLuckly/LBLaunchImageAd.git", :tag => s.version.to_s}
 
 
 s.source_files  = "LBLaunchImageAd/Lib/LBLaunchImageAd/**/*.{h,m}"
