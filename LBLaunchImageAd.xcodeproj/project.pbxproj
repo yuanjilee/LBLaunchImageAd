@@ -131,13 +131,21 @@
 				6A18C78B1D0D1AF700B7F316 /* LBLaunchImageAdView.h */,
 				6A18C78C1D0D1AF700B7F316 /* LBLaunchImageAdView.m */,
 			);
-			path = LBLaunchImageAd;
+			name = LBLaunchImageAd;
+			path = ../LBLaunchImageAd;
+			sourceTree = "<group>";
+		};
+		6A18C78E1D0D3A7F00B7F316 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				6A18C78A1D0CF3C600B7F316 /* LBLaunchImageAd */,
+			);
+			path = Lib;
 			sourceTree = "<group>";
 		};
 		6ADA33BA1D07F37200B13CDF = {
 			isa = PBXGroup;
 			children = (
-				6ADA33FC1D08198100B13CDF /* SDWebImage */,
 				6ADA33C51D07F37200B13CDF /* LBLaunchImageAd */,
 				6ADA33DF1D07F37200B13CDF /* LBLaunchImageAdTests */,
 				6ADA33EA1D07F37200B13CDF /* LBLaunchImageAdUITests */,
@@ -158,7 +166,8 @@
 		6ADA33C51D07F37200B13CDF /* LBLaunchImageAd */ = {
 			isa = PBXGroup;
 			children = (
-				6A18C78A1D0CF3C600B7F316 /* LBLaunchImageAd */,
+				6ADA33FC1D08198100B13CDF /* SDWebImage */,
+				6A18C78E1D0D3A7F00B7F316 /* Lib */,
 				6ADA33C91D07F37200B13CDF /* AppDelegate.h */,
 				6ADA33CA1D07F37200B13CDF /* AppDelegate.m */,
 				6ADA33CC1D07F37200B13CDF /* ViewController.h */,
@@ -232,7 +241,8 @@
 				6ADA34181D08198100B13CDF /* UIView+WebCacheOperation.h */,
 				6ADA34191D08198100B13CDF /* UIView+WebCacheOperation.m */,
 			);
-			path = SDWebImage;
+			name = SDWebImage;
+			path = ../SDWebImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
